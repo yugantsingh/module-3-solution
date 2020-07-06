@@ -1,0 +1,49 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: white;
+  font-family: 'Pangolin', cursive;
+  background-color: #fffbd5;
+}
+
+header{
+  margin: 20px;
+  text-align: center;
+  font-size: 2em;
+}
+h1{
+  margin: 20px;
+  font-size: 1.6em;
+  text-align: center;
+}
+p{
+  text-align: center;
+}
+section{
+  float: left;
+  margin: 20px 0 20px 0;
+  background-color: #9fcaa8;
+  padding: 10px ;
+}
+.navbar{
+  font-size: 1.6em;
+  background: #fffbd5;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #0ab27a, #fffbd5);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #0ab27a, #fffbd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.nav-item{
+  visibility: hidden;
+  text-align: center;
+  font-size: 0.8em;
+}
+
+@media (max-width: 768px){
+  .nav-item{
+    visibility: visible;
+  }
+}
