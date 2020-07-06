@@ -11,7 +11,6 @@ body{
 
 header{
   margin: 20px;
-  text-align: center;
   font-size: 2em;
 }
 h1{
@@ -38,7 +37,6 @@ section{
 
 .nav-item{
   visibility: hidden;
-  text-align: center;
   font-size: 0.8em;
 }
 
